@@ -10,9 +10,9 @@
   --color-accent: oklch(71.8% 0.202 349.761);
 
   /* Animations */
-  --animate-text: text 10s ease infinite;
+  --animate-gradient: gradient 7s ease infinite;
 
-  @keyframes text {
+  @keyframes gradient {
     0%,
     100% {
       background-size: 200% 200%;
