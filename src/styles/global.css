@@ -2,12 +2,14 @@
 
 @theme {
   /* Fonts */
-  --font-sans: "Cal Sans", "sans-serif";
+  --font-sans: "Lexend Deca", "sans-serif";
+  --font-hero: "Cal Sans", "Lexend Deca", "sans-serif";
 
   /* Colors */
   --color-primary: oklch(0.82 0.1632 77.79);
   --color-secondary: oklch(0.6 0.166 46.51);
   --color-accent: oklch(71.8% 0.202 349.761);
+  --color-background: oklch(1 0.0013 106.42);
 
   /* Animations */
   --animate-gradient: gradient 7s ease infinite;
