@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-sans: "Cal Sans", "sans-serif";
+
+  /* Colors */
+  --color-primary: oklch(0.82 0.1632 77.79);
+  --color-secondary: oklch(0.6 0.166 46.51);
+  --color-accent: oklch(71.8% 0.202 349.761);
+
+  /* Animations */
+  --animate-text: text 10s ease infinite;
+
+  @keyframes text {
+    0%,
+    100% {
+      background-size: 200% 200%;
+      background-position: left center;
+    }
+    50% {
+      background-size: 200% 200%;
+      background-position: right center;
+    }
+  }
+}
