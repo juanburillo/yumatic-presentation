@@ -6,10 +6,10 @@
   --font-hero: "Cal Sans", "Lexend Deca", "sans-serif";
 
   /* Colors */
-  --color-primary: oklch(0.82 0.1632 77.79);
-  --color-secondary: oklch(0.6 0.166 46.51);
-  --color-accent: oklch(71.8% 0.202 349.761);
-  --color-background: oklch(1 0.0013 106.42);
+  --color-primary: oklch(0.82 0.1632 77.79); /* Light Orange */
+  --color-secondary: oklch(0.6 0.166 46.51); /* Dark Orange */
+  --color-accent: oklch(71.8% 0.202 349.761); /* Pink */
+  --color-background: oklch(1 0.0013 106.42); /* White */
 
   /* Animations */
   --animate-gradient: gradient 5s ease infinite;
