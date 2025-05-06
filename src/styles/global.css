@@ -12,7 +12,7 @@
   --color-background: oklch(1 0.0013 106.42);
 
   /* Animations */
-  --animate-gradient: gradient 7s ease infinite;
+  --animate-gradient: gradient 5s ease infinite;
 
   @keyframes gradient {
     0%,
