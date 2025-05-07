@@ -4,6 +4,7 @@
   /* Fonts */
   --font-base: "Lexend Deca", sans-serif;
   --font-display: "Cal Sans", "Lexend Deca", sans-serif;
+  --font-countdown: "Finlandica", "Lexend Deca", sans-serif;
 
   /* Colors */
   --color-gradient-start: oklch(0.6 0.166 46.51); /* Dark Orange */
