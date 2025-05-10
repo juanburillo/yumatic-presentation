@@ -22,7 +22,7 @@ export function RotatingWords({ words = ["Word 1", "Word 2", "Word 3"] }: Rotati
     <AnimatePresence mode="wait">
       <motion.span
         key={words[index]}
-        className="inline-block"
+        className="block sm:inline-block"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 20 }}
