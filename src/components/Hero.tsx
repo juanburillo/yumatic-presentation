@@ -1,5 +1,5 @@
 import Countdown from "./Countdown"
-import { RotatingWords } from "./RotatingWords.tsx"
+import { RotatingWords } from "./RotatingWords"
 
 const Hero = () => {
   return (
