@@ -22,7 +22,7 @@ export function RotateWords({ words = ["Word 1", "Word 2", "Word 3"] }: RotateWo
     <AnimatePresence mode="wait">
       <motion.span
         key={words[index]}
-        className="absolute"
+        className="inline-block"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 20 }}
