@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 
-type RotateWordProps = {
+type RotatingWordProps = {
   words: string[]
 }
  
-export function RotateWords({ words = ["Word 1", "Word 2", "Word 3"] }: RotateWordProps) {
+export function RotatingWords({ words = ["Word 1", "Word 2", "Word 3"] }: RotatingWordProps) {
   const [index, setIndex] = useState(0)
  
   useEffect(() => {
