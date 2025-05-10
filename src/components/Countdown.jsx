@@ -1,6 +1,6 @@
 const Countdown = () => {
   return (
-    <div className="mt-12 md:mt-14 lg:mt-18">
+    <div className="mt-12 md:mt-14 lg:mt-18 text-center">
       <p className="text-7xl md:text-8xl lg:text-9xl font-light">
         XX
       </p>
@@ -9,7 +9,7 @@ const Countdown = () => {
         days left
       </p>
     </div>
-  );
+  )
 }
 
-export default Countdown;
+export default Countdown
