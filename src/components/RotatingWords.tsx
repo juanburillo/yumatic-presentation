@@ -19,17 +19,19 @@ export function RotatingWords({ words = ["Word 1", "Word 2", "Word 3"] }: Rotati
   }, [words])
 
   return (
-    <AnimatePresence mode="wait">
-      <motion.span
-        key={words[index]}
-        className="block sm:inline-block"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: 20 }}
-        transition={{ duration: 0.5 }}
-      >
-        {words[index]}
-      </motion.span>
-    </AnimatePresence>
+    <span aria-live="polite">
+      <AnimatePresence mode="wait">
+        <motion.span
+          key={words[index]}
+          className="block sm:inline-block"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 20 }}
+          transition={{ duration: 0.5 }}
+        >
+          {words[index]}
+        </motion.span>
+      </AnimatePresence>
+    </span>
   )
 }
