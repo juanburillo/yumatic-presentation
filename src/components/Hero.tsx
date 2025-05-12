@@ -18,7 +18,7 @@ const Hero = () => {
           </span>
         </h2>
 
-        <Countdown />
+        {/*<Countdown />*/}
       </div >
     </main >
   )
